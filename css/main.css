@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.navigation  ul {
+  padding: 5px 10px;
+}
+
+li a:hover {
+    background-color: yellow;
+}
+
+header h1 {
+  font-family: 'Shadows Into Light', cursive;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Handlee', cursive;
+  font-family: 'Lobster', cursive;
+  font-family: 'Fruktur', cursive;
+  font-family: 'Faster One', cursive;
+  font-family: 'Mystery Quest', cursive;
+  font-size: 48px;
+  margin: 0;
+  padding: 25px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+nav.navigation {
+  background-color: rgb(204, 179, 204);
+  padding: 25px;
+  text-align: center;
+}
+
+.navigation ul li {
+  background-color: purple;
+  display: inline-block;
+  margin: 5px 25px;
+  padding: 5px 10px;
+}
+
+li a {
+  font-family: 'Rancho', cursive;
+  color: magenta;
+  text-decoration: none;
+}
+
+section {
+  background-color: rgb(112, 41, 112);
+  text-align: center;
+}
+
+div.box {
+  display: inline-block;
+  width: 30%
+}
+
+div.box img {
+  width: 100%;
+}
+
+div.box p {
+  background-color: white;
+  border: 3px solid purple;
+  padding: 15px;
+}
+
+div.box p:first-letter {
+  font-family: 'Fruktur', cursive;
+  font-family: 'Faster One', cursive;
+  color: purple;
+  font-size: 40px;
+}
+
+div.box h2 {
+  font-family: 'Rancho', cursive;
+  text-shadow: 4px 4px 4px #aaa
+}
+/* footer */
+
+footer {
+  background-color: rgb(204, 179, 204);
+  padding: 50px;
+  text-align: center;
+
+}
+
+footer li {
+  background-color: purple;
+  display: inline-block;
+  margin: 10px 25px;
+  padding: 5px 10px;
+
+}
+
+footer li a {
+  color: magenta;
+  text-decoration: none;
+}
