@@ -3,47 +3,49 @@ body {
   padding: 0;
 }
 
-
+/*navigation*/
 .navigation  ul {
-  padding: 5px 10px;
-}
+ font-size: 50px;
 
-li a:hover {
-    background-color: yellow;
 }
-
-header h1 {
-  font-family: 'Shadows Into Light', cursive;
-  font-family: 'Pacifico', cursive;
-  font-family: 'Handlee', cursive;
-  font-family: 'Lobster', cursive;
-  font-family: 'Fruktur', cursive;
-  font-family: 'Faster One', cursive;
-  font-family: 'Mystery Quest', cursive;
-  font-size: 48px;
-  margin: 0;
-  padding: 25px;
-  text-shadow: 4px 4px 4px #aaa;
-}
-
 nav.navigation {
-  background-color: rgb(204, 179, 204);
-  padding: 25px;
+  background-color: #00BCD4;
+  padding: 10px;
   text-align: center;
 }
 
 .navigation ul li {
   background-color: purple;
   display: inline-block;
-  margin: 5px 25px;
-  padding: 5px 10px;
+
 }
 
 li a {
   font-family: 'Rancho', cursive;
-  color: magenta;
+  color: #00efff;
   text-decoration: none;
 }
+
+li a:hover {
+    background-color: white;
+}
+
+
+/*Header*/
+header h1 {
+  font-family: 'Mystery Quest', cursive;
+  font-size: 54px;
+  margin: 0;
+  padding: 25px;
+  text-shadow: 4px 4px 4px #aaa; 
+}
+mark {
+  background-color: yellow;
+}
+
+
+
+/*Sections and Divs*/
 
 section {
   background-color: rgb(112, 41, 112);
@@ -76,17 +78,23 @@ div.box h2 {
   font-family: 'Rancho', cursive;
   text-shadow: 4px 4px 4px #aaa
 }
+
+
 /* footer */
 
 footer {
-  background-color: rgb(204, 179, 204);
-  padding: 50px;
+  background-color: black;
+  padding: 10px;
   text-align: center;
 
 }
+p a {
+    color: #f109f0;
+    font-size: 19px;
+}
 
 footer li {
-  background-color: purple;
+/*background-color: purple;*/
   display: inline-block;
   margin: 10px 25px;
   padding: 5px 10px;
@@ -96,4 +104,34 @@ footer li {
 footer li a {
   color: magenta;
   text-decoration: none;
+  font-size: 2.5rem;
+}
+
+/*responsive*/
+@media (min-width: 360px) {
+  .navigation ul {
+    font-size: 27px;
+    padding-right: 27px;
+  }
+  header h1 {  
+    font-size: 27px
+}
+  div.box {
+    width: 100%;
+  }
+  footer li a {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1024px) {
+  .navigation ul {
+    font-size: 50px;
+   
+  }
+  header h1 {  
+    font-size: 36px
+}
+  div.box {
+    width: 28%;
+  }
 }
